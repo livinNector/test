@@ -4,6 +4,8 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import Column, Integer, String, Boolean
 from sqlalchemy.orm import sessionmaker
 
+
+
 engine = create_engine('sqlite:///:sample.db', echo=False)
 Base = declarative_base()
 
