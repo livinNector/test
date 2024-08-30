@@ -1,8 +1,8 @@
 # prompt: use sqlalchemy to create a database and tables for the above superhero class
 from sqlalchemy import create_engine
-from sqlalchemy.ext.declarative import declarative_base
+
 from sqlalchemy import Column, Integer, String, Boolean
-from sqlalchemy.orm import sessionmaker
+from sqlalchemy.orm import sessionmaker,declarative_base
 
 
 
